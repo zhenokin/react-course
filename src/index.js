@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './styles/main.css';
 
 const createElementMethod = React.createElement('h1', null, 'The 1st method');
 const jsxMethod = <h1>The 2nd method </h1>;
